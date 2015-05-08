@@ -1,17 +1,21 @@
 #logo {
     float:left;
-    height: 200px;
-    width: 350px;
+    height:44%;
+    width: 27%;
+    opacity:0.75;
 }
 body {
     width: 100%;
     height: 100%;
+    background-color:blue;
+    opacity:0.95;
 }
 #menu {
     float:left;
-    height:45px;
+    height:9.8%;
     width:100%;
     background-color:black;
+    opacity:0.85;
     border-style:solid;
     border-width:2px;
 }
@@ -28,34 +32,57 @@ body {
     border-width:2px;
     border-style:solid;
 }
-
 #menu a {
-    color: yellow;
+    color:yellow;
 }
-
-#hem {
+.hem {
     width:100%;
-    height:200px;
+    height:20%;
     border:1px solid #000;
-    padding-top:0px;
     float:left;
-
 }
 #namn {
-    width:100%;
-    height:149px;
-    border:1px solid white;
-
+    float:left;
+    width:33%;
+    height:80px;
+    border:1px solid blue;
 }
-#namn p {
+#namn h1 {
+    color:yellow;
     font-size:70px;
 }
+#namn p {
+    color:yellow;
+    font-size:20px;
+    margin-left:0px;
+}
 #namn_hela {
-    width:100%;
-    height:47px;
-    border:1px solid white;
+    margin-top:80px;
+    float:left;
+    width:33%;
+    height:147px;
+    border:1px solid blue;
 }
 #namn_hela p {
     font-size:20px;
-}
 
+}
+.hem th {
+    margin-left:auto;
+}
+#program {
+    width:15%;
+    height:150px;
+    border:2px solid black;
+    float:left;
+}
+.program {
+    width:15%;
+    height:200px;
+    border:2px solid black;
+    float:left;
+    margin-left:10%;
+}
+.program p {
+    color:grey;
+}
