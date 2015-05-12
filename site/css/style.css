@@ -20,6 +20,7 @@ body {
     border-width:2px;
 }
 #menu table {
+    text-align:center;
     width:100%;
 }
 #menyn0 {
@@ -69,6 +70,7 @@ body {
     font-size:15px;
 }
 #program {
+    margin-top:2%;
     width:15%;
     height:300px;
     border:2px solid black;
@@ -78,6 +80,7 @@ body {
     font-size:15px;
 }
 .program {
+    margin-top:2%;
     width:10%;
     height:300px;
     border:2px solid black;
@@ -125,6 +128,7 @@ body {
 }
 body h3, p, li, h4{
     color:white;
+    text-align:center;
 }
 #meddelanden {
     width:33%;
@@ -133,8 +137,10 @@ body h3, p, li, h4{
     float:left;
     margin-left:10%;
     margin-top:2%;
+    text-align:center;
 }
 #meddelanden p {
+    text-align:center;
     font-size:13px;
 }
 #installda_lektioner {
@@ -146,13 +152,14 @@ body h3, p, li, h4{
     margin-top: 2%;
 }
 #hitta_hit {
-    width: 15%;
-    height: 40px;
-    border: 2px solid black;
-    float: left;
-    margin-top: 2%;
+    float:left;
+}
+#hitta_hit p {
+    color:white;
 }
 #googleMap {
+    margin-top:5%;
+    float:left;
     width:80%;
     height:350px;
 }
