@@ -19,6 +19,9 @@ body {
     border-style:solid;
     border-width:2px;
 }
+#menu table {
+    width:100%;
+}
 #menyn0 {
     font-size:29px;
     float:left;
@@ -27,20 +30,23 @@ body {
 }
 #menyn1 {
     font-size:29px;
-    margin-left:110px;
+    margin-left:9%;
     float:left;
     border-width:2px;
     border-style:solid;
 }
 #menu a {
-    color:yellow;
+    color:white;
 }
 .hem {
-    width:100%;
-    height:20%;
+    width:75%;
+    height:200px;
     border:1px solid #000;
     float:left;
+    margin-top:2%;
+    margin-left: 12.5%;
 }
+
 #namn {
     float:left;
     width:33%;
@@ -48,41 +54,203 @@ body {
     border:1px solid blue;
 }
 #namn h1 {
-    color:yellow;
+    color:white;
     font-size:70px;
 }
 #namn p {
-    color:yellow;
+    color:white;
     font-size:20px;
-    margin-left:0px;
-}
-#namn_hela {
-    margin-top:80px;
-    float:left;
-    width:33%;
-    height:147px;
-    border:1px solid blue;
-}
-#namn_hela p {
-    font-size:20px;
-
 }
 .hem th {
+    color:white;
     margin-left:auto;
+}
+.hem p {
+    font-size:15px;
 }
 #program {
     width:15%;
-    height:150px;
+    height:300px;
     border:2px solid black;
     float:left;
 }
+#program p {
+    font-size:15px;
+}
 .program {
-    width:15%;
-    height:200px;
+    width:10%;
+    height:300px;
     border:2px solid black;
     float:left;
     margin-left:10%;
 }
 .program p {
-    color:grey;
+    color:white;
+    font-size:14px;
+}
+#personal {
+    width:15%;
+    height:300px;
+    border:2px solid black;
+    float:left;
+    margin-top:2%;
+}
+#personal p {
+    color:white;
+}
+.personal_rutor {
+    width:8%;
+    height:100px;
+    border:2px solid black;
+    float:left;
+    margin-left:2%;
+    margin-top:2%;
+}
+#skolmat {
+    width:20%;
+    height:250px;
+    border:2px solid black;
+    float:left;
+    margin-top:2%;
+}
+#skolmat li {
+    font-size:10px;
+}
+#event {
+    width:80%;
+    height:250px;
+    border:1px solid #000;
+    float:left;
+    margin-top:2%;
+}
+body h3, p, li, h4{
+    color:white;
+}
+#meddelanden {
+    width:33%;
+    height:250px;
+    border:2px solid black;
+    float:left;
+    margin-left:10%;
+    margin-top:2%;
+}
+#meddelanden p {
+    font-size:13px;
+}
+#installda_lektioner {
+    width: 15%;
+    height: 250px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#hitta_hit {
+    width: 15%;
+    height: 40px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 2%;
+}
+#googleMap {
+    width:80%;
+    height:350px;
+}
+
+@media screen and (max-width: 700px) {
+    #logo {
+        float:left;
+        height:10%;
+        width: 20%;
+        opacity:0.75;
+    }
+    #menu {
+        float:left;
+        height:9.8%;
+        width:100%;
+        background-color:black;
+        opacity:0.85;
+        border-style:solid;
+        border-width:2px;
+    }
+    #menu table {
+        width:100%;
+    }
+    #menyn1 {
+        font-size:14px;
+        margin-left:10%;
+        float:left;
+        border-width:2px;
+        border-style:solid;
+    }
+    #menyn0 {
+        font-size:14px;
+        float:left;
+        border-width:2px;
+        border-style:solid;
+    }
+    #namn h1 {
+        color:white;
+        font-size:35px;
+    }
+    #namn p {
+        color:white;
+        font-size:15px;
+    }
+    .hem p {
+        font-size:9px;
+    }
+    .hem {
+        width:75%;
+        height:150px;
+        border:1px solid #000;
+        float:left;
+        margin-top:2%;
+        margin-left: 12.5%;
+    }
+    .program {
+        width:10%;
+        height:250px;
+        border:2px solid black;
+        float:left;
+        margin-left:10%;
+    }
+    .program p {
+        font-size:10px;
+    }
+    #program p {
+        font-size:10px;
+    }
+    .personal_rutor p {
+        font-size:9px;
+        color:white;
+    }
+    .personal_rutor {
+        width:15%;
+        height:15%;
+    }
+    #personal {
+        width:15%;
+        height:25%;
+    }
+    #personal p {
+        font-size:10px;
+        color:white;
+    }
+    #skolmat li {
+        font-size:8px;
+    }
+    #skolmat h3 {
+        font-size:12px;
+    }
+    #meddelanden h3 {
+        font-size:12px;
+    }
+    #installda_lektioner h4 {
+        font-size:12px;
+    }
+    #installda_lektioner p {
+        font-size:11px;
+    }
+
 }
