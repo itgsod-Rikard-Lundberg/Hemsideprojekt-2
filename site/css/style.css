@@ -23,6 +23,12 @@ body {
     text-align:center;
     width:100%;
 }
+#event_bild {
+    margin-left:15%;
+}
+#event_bild_mini {
+    display:none;
+}
 #menyn0 {
     font-size:29px;
     float:left;
@@ -61,6 +67,13 @@ body {
 #namn p {
     color:white;
     font-size:20px;
+}
+#bilden {
+    margin-top:5%;
+    margin-left:15%;
+}
+#bilden_mini {
+    display:none;
 }
 .hem th {
     color:white;
@@ -164,6 +177,16 @@ body h3, p, li, h4{
     height:350px;
 }
 
+@media screen and (max-width: 773px) {
+    #bilden {
+    margin-left:50px;
+}
+    #event_bild {
+        margin-left:50px;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
     #logo {
         float:left;
@@ -259,5 +282,19 @@ body h3, p, li, h4{
     #installda_lektioner p {
         font-size:11px;
     }
-
+    #bilden {
+        display:none;
+    }
+    #bilden_mini {
+        display:initial;
+        margin-left:25%;
+    }
+    #event_bild {
+        display:none;
+    }
+    #event_bild_mini {
+        float:left;
+        display:initial;
+        margin-left:25px;
+    }
 }
